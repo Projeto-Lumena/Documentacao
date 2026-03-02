@@ -1,34 +1,22 @@
 # Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+*Lumena*
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
+*Nosso projeto visa o desenvolvimento de uma aplicação WEB. Tendo o objetivo de ampliar o reconhecimento de uma microempreendedora no ramo de velas aromáticas artesanais. Oferecendo uma plataforma que possui funcionalidades para otimização do gerenciamento e venda de produtos. Além disso, possibilita uma relação personalizada de cliente e vendedor, por meio da escolha de produtos, seleção de aromas, visualização de detalhes e finalização de compra de forma prática com pagamento seguro.*
 
 **IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
 
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Aluno1](github.com/aluno1)
-- [Aluno2](github.com/aluno2)
+- [Amanda Ribeiro da Luz](https://github.com/AmandaRibeiroLuz)
+- [Heloisa de Farias Longhi](https://github.com/HeloLonghi)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
-
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instaladas as seguintes extensões:
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-5. Edite o arquivo README.md com as informações do seu projeto.
 
 # 1. Desenvolvimento
 *(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
@@ -43,47 +31,10 @@ Links do projeto:
 
 Um sistema de ponto de vendas é um software que permite a um estabelecimento comercial registrar as vendas realizadas, gerenciar o estoque, emitir notas fiscais, etc. Ele é utilizado principalmente em lojas, supermercados, padarias, restaurantes, etc.
 
-**Exemplos de sistemas de pontos de vendas:**
-- Padaria, supermercado, cafeteria, pizzaria, restaurante, etc.
-- Farmácia, loja de roupas, papelaria, etc.
+**Loja de aromas Lumena:**
 
+A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido ao baixo reconhecimento por falta de divulgação desenvolveremos um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso aos produtos, compras e pagamentos dos mesmos. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
 
-**Exemplo: Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
-**1.1.2 Empréstimo**
-
-Um sistema de empréstimo é um software que permite a uma instituição, como uma biblioteca, gerenciar o empréstimo de livros, revistas, etc. Ele é utilizado principalmente em bibliotecas, escolas, universidades, etc.
-
-**Exemplos de sistemas de empréstimo:**
-- Biblioteca, coworking, estacionamento, etc.
-- Locadora de veículos, aluguel de equipamentos, etc.
-- Aluguel de imoveis, etc.
-- Aluguel de trajes, fantasias, brinquedos para festas, etc.
-
-**Exemplo: Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-**1.1.3 Ordem de Serviço (O.S.)**
-
-Um sistema de ordem de serviço é um software que permite a uma empresa, como uma oficina, gerenciar os serviços realizados, os clientes atendidos, etc. Ele é utilizado principalmente em oficinas mecânicas, assistência técnica, etc.
-
-**Exemplos de sistemas de ordem de serviço:**
-- Manutenção de computadores, assistência técnica de celulares, etc.
-- Manutenção de veículos, etc.
-- Manutenção de eletrodomésticos, etc.
-
-
-**Exemplo:Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
 
 # 2. Situação Problema
 
