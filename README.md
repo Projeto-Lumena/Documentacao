@@ -14,9 +14,9 @@ Equipe:
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   [Documentação (esse documento)](https://github.com/Projeto-Lumena/Documentacao)
+-   Backend: [Repositório](https://github.com/Projeto-Lumena/Backend) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/Projeto-Lumena/Frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 # 1. Desenvolvimento
 *(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
