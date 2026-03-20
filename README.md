@@ -19,13 +19,6 @@ Links do projeto:
 -   Frontend: [Repositório](https://github.com/Projeto-Lumena/Frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 # 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
-**1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 **1.1.1 Ponto de Vendas (PDV)**
 
