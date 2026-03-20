@@ -38,41 +38,27 @@ A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, ch
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
+A empresa Lumena, produz de maneira artesanal velas aromáticas desde o início de 2025. A dona da empresa, Lorena, possui técnico em farmácia e trabalha individualmente na produção das velas. A empresa disponibiliza as seguintes opções de aroma: Baunilha, Bergamota, Canela e Maçã, Capim Limão, Flor de Cerejeira, Flor de Laranjeira, Jasmim, Lavanda Francesa e Limão Siciliano. Sendo possível a escolha de tamanhos do P, M e G.
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+Atualmente, a empresa Lumena realiza suas vendas principalmente por meio das redes sociais, como Instagram e WhatsApp. Os clientes entram em contato diretamente com a dona, para solicitar informações sobre os produtos, escolher aromas, tamanhos e realizar pedidos personalizados.
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+Após o contato inicial, Lorena deixa salvo o pedido no contato do cliente. Não há um sistema digital para organizar esses dados, o que pode dificultar a visualização e o controle dos pedidos em andamento.
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+A produção das velas é feita de forma artesanal pela própria Lorena, que organiza sua rotina de acordo com a demanda de pedidos registrados. Como não existe um controle automatizado, a gestão do estoque de materiais, como cera, essências e recipientes, é feita de maneira visual ou por estimativa, podendo ocorrer falta ou excesso de insumos.
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
+Além disso, o controle financeiro também é realizado manualmente. Os pagamentos são feitos via Pix ou dinheiro, e as informações são anotadas separadamente, sem integração com os pedidos realizados. Isso dificulta a organização e o acompanhamento do faturamento da empresa.
 
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+As entregas são combinadas diretamente com os clientes, podendo ser feitas por retirada no local ou envio, porém não há um controle estruturado dessas entregas, o que pode gerar confusões ou atrasos.
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+Diante dessa situação, é possível identificar dificuldades na organização dos pedidos, no controle de estoque e na gestão financeira da empresa. A ausência de um sistema informatizado pode causar erros, retrabalho e perda de informações. Dessa forma, o desenvolvimento de um software de vendas e gerenciamento de pedidos, estoque e finanças poderia otimizar os processos, melhorar a organização e contribuir para o crescimento da empresa Lumena.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+A proposta do sistema Lumena é o desenvolvimento de uma aplicação que potencialize a divulgação, gerenciamento e venda de velas aromáticas artesanais. O principal objetivo do sistema é possibilitar que a dona do empreendimento amplie o alcance de sua marca, organize seus produtos e otimize o processo de venda e compra, trazendo uma solução para as atuais dificuldades em relação à baixa visibilidade dos produtos e mal gerenciamento das vendas.
 
-**Alguns pontos importantes a se destacar são:**
+O software possuirá dois tipos de usuários: a vendedora e os clientes. A vendedora possuirá acesso às funcionalidades de administração e gerenciamento, como o cadastro, edição e exclusão de produtos, suas informações e acompanhamento dos pedidos. Os clientes, por sua vez, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta procura além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
 
 # 4. Modelagem de Dados
 
