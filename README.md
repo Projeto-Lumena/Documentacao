@@ -30,7 +30,7 @@ A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, ch
 
 # 2. Situação Problema
 
-A empresa Lumena, produz de maneira artesanal velas aromáticas desde o início de 2025. A dona da empresa, Lorena, possui formação técnica em farmácia e trabalha individualmente na produção das velas. A empresa disponibiliza as seguintes opções de aroma: Baunilha, Bergamota, Canela e Maçã, Capim Limão, Flor de Cerejeira, Flor de Laranjeira, Jasmim, Lavanda Francesa e Limão Siciliano. Sendo possível a escolha de tamanhos do P, M e G.
+A empresa Lumena produz de maneira artesanal velas aromáticas desde o início de 2025. A dona da empresa, Lorena, possui formação técnica em farmácia e trabalha individualmente na produção das velas. A empresa disponibiliza as seguintes opções de aroma: Baunilha, Bergamota, Canela e Maçã, Capim Limão, Flor de Cerejeira, Flor de Laranjeira, Jasmim, Lavanda Francesa e Limão Siciliano. Sendo possível a escolha de tamanhos do P, M e G.
 
 Atualmente, a empresa Lumena realiza suas vendas principalmente por meio das redes sociais, como Instagram e WhatsApp. Os clientes entram em contato diretamente com a dona, para solicitar informações sobre os produtos, escolher aromas, tamanhos e realizar pedidos personalizados.
 
@@ -50,7 +50,7 @@ A proposta do sistema Lumena é o desenvolvimento de uma aplicação que potenci
 
 O software possuirá dois tipos de usuários: a vendedora e os clientes. A vendedora possuirá acesso às funcionalidades de administração e gerenciamento, como o cadastro, edição e exclusão de produtos, suas informações e acompanhamento dos pedidos. Os clientes, por sua vez, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.
 
-Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta busca além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
+Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta busca, além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
 
 # 4. Modelagem de Dados
 
