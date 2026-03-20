@@ -3,7 +3,7 @@
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-*Nosso projeto visa o desenvolvimento de uma aplicação WEB, com o objetivo de ampliar o reconhecimento de uma microempreendedora no ramo de velas aromáticas artesanais. Oferecendo uma plataforma que possui funcionalidades para otimização do gerenciamento e venda de produtos. Além disso, possibilita uma relação personalizada de cliente e vendedor, por meio da escolha de produtos, seleção de aromas, visualização de detalhes e finalização de compra de forma prática com pagamento seguro.*
+*Nosso projeto visa o desenvolvimento de uma aplicação WEB, com o objetivo de ampliar o reconhecimento de uma microempreendedora no ramo de velas aromáticas artesanais, oferecendo uma plataforma com funcionalidades para otimização do gerenciamento e venda de produtos. Além disso, possibilita uma relação personalizada de cliente e vendedor, por meio da escolha de produtos, seleção de aromas, visualização de detalhes e finalização de compra de forma prática com pagamento seguro.*
 
 **IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
 
