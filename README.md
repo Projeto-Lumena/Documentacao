@@ -26,7 +26,7 @@ Um sistema de ponto de vendas é um software que permite a um estabelecimento co
 
 **Loja de aromas Lumena:**
 
-A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido à baixa divulgação, será desenvolvido um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso aos produtos, compras e pagamentos dos mesmos. O sistema também permitirá o registro e controle das vendas realizadas, aproximando-se das funcionalidades de um sistema de ponto de vendas. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
+A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido à baixa divulgação de seus produtos, será desenvolvido um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso aos produtos, compras e pagamentos dos mesmos. O sistema também permitirá o registro e controle das vendas realizadas, aproximando-se das funcionalidades de um sistema de ponto de vendas. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
 
 # 2. Situação Problema
 
@@ -50,7 +50,7 @@ A proposta do sistema Lumena é o desenvolvimento de uma aplicação que potenci
 
 O software possuirá dois tipos de usuários: a vendedora e os clientes. A vendedora possuirá acesso às funcionalidades de administração e gerenciamento, como o cadastro, edição e exclusão de produtos, suas informações e acompanhamento dos pedidos. Os clientes, por sua vez, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.
 
-Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta procura além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
+Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta busca além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
 
 # 4. Modelagem de Dados
 
