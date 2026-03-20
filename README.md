@@ -2,6 +2,7 @@
 *Lumena*
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
+
 *Nosso projeto visa o desenvolvimento de uma aplicação WEB. Tendo o objetivo de ampliar o reconhecimento de uma microempreendedora no ramo de velas aromáticas artesanais. Oferecendo uma plataforma que possui funcionalidades para otimização do gerenciamento e venda de produtos. Além disso, possibilita uma relação personalizada de cliente e vendedor, por meio da escolha de produtos, seleção de aromas, visualização de detalhes e finalização de compra de forma prática com pagamento seguro.*
 
 **IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
@@ -13,7 +14,6 @@ Equipe:
 - [Heloisa de Farias Longhi](https://github.com/HeloLonghi)
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](https://github.com/Projeto-Lumena/Documentacao)
 -   Backend: [Repositório](https://github.com/Projeto-Lumena/Backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](https://github.com/Projeto-Lumena/Frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
@@ -26,12 +26,11 @@ Um sistema de ponto de vendas é um software que permite a um estabelecimento co
 
 **Loja de aromas Lumena:**
 
-A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido ao baixo reconhecimento por falta de divulgação desenvolveremos um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso aos produtos, compras e pagamentos dos mesmos. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
-
+A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido à baixa divulgação, será desenvolvido um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso aos produtos, compras e pagamentos dos mesmos. O sistema também permitirá o registro e controle das vendas realizadas, aproximando-se das funcionalidades de um sistema de ponto de vendas. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
 
 # 2. Situação Problema
 
-A empresa Lumena, produz de maneira artesanal velas aromáticas desde o início de 2025. A dona da empresa, Lorena, possui técnico em farmácia e trabalha individualmente na produção das velas. A empresa disponibiliza as seguintes opções de aroma: Baunilha, Bergamota, Canela e Maçã, Capim Limão, Flor de Cerejeira, Flor de Laranjeira, Jasmim, Lavanda Francesa e Limão Siciliano. Sendo possível a escolha de tamanhos do P, M e G.
+A empresa Lumena, produz de maneira artesanal velas aromáticas desde o início de 2025. A dona da empresa, Lorena, possui formação técnica em farmácia e trabalha individualmente na produção das velas. A empresa disponibiliza as seguintes opções de aroma: Baunilha, Bergamota, Canela e Maçã, Capim Limão, Flor de Cerejeira, Flor de Laranjeira, Jasmim, Lavanda Francesa e Limão Siciliano. Sendo possível a escolha de tamanhos do P, M e G.
 
 Atualmente, a empresa Lumena realiza suas vendas principalmente por meio das redes sociais, como Instagram e WhatsApp. Os clientes entram em contato diretamente com a dona, para solicitar informações sobre os produtos, escolher aromas, tamanhos e realizar pedidos personalizados.
 
