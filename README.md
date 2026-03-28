@@ -127,7 +127,7 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 
 **Entradas:**
 
-- **R.F. 01 - Cadastro de usuário:**
+- **R.F. 01 - Cadastro de usuário**:
 Permitir que novos clientes realizem seu cadastro na plataforma para acessar o sistema, visualizar produtos e efetuar pedidos.
   - **Dados necessários:** nome, email, telefone, senha, data_nascimento, foto_perfil.
   - **Usuários:** Cliente.
