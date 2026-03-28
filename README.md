@@ -132,126 +132,126 @@ Permitir que novos clientes realizem seu cadastro na plataforma para acessar o s
   - **Dados necessários:** nome, email, telefone, senha, data_nascimento, foto_perfil.
   - **Usuários:** Cliente.
 
-- **R.F. 02 - Cadastro de endereço:**
+- **R.F. 02 - Cadastro de endereço**:
 Permitir que o usuário cadastre seu endereço (casa, trabalho…) para entrega dos pedidos realizados.
   - **Dados necessários:** rua, numero, complemento, bairro, cidade, estado, cep, tipo, id_usuario.
   - **Usuários:** Cliente.
 
-- **R.F. 03 - Gerenciamento de produto:**
+- **R.F. 03 - Gerenciamento de produto**:
 Permitir que a administradora cadastre, edite e exclua produtos do sistema, incluindo suas informações.
   - **Dados necessários:** nome, descricao, preco, ativo, imagem.
   - **Usuários:** Administradora.
 
-- **R.F. 04 - Cadastro de categoria:**
+- **R.F. 04 - Cadastro de categoria**:
 Permitir que a administradora cadastre categorias para organizar os produtos no sistema.
   - **Dados necessários:** nome, descricao.
   - **Usuários:** Administradora.
 
-- **R.F. 05 - Cadastro de avaliação:**
+- **R.F. 05 - Cadastro de avaliação**:
 Permitir que o cliente registre avaliações de produtos adquiridos, informando nota e comentário.
   - **Dados necessários:** nota, comentario, data_avaliacao, id_usuario, id_produto.
   - **Usuários:** Cliente.
 
-- **R.F. 06 - Edição do perfil do cliente:**
+- **R.F. 06 - Edição do perfil do cliente**:
 Permitir que o cliente atualize seus dados pessoais e de contato cadastrados no sistema.
   - **Dados necessários:** nome, telefone, email, senha, foto_perfil.
   - **Usuários:** Cliente.
 
-- **R.F. 07 - Edição do perfil da Administradora:**
+- **R.F. 07 - Edição do perfil da Administradora**:
 Permitir que a administradora atualize seus dados pessoais e de contato cadastrados no sistema.
   - **Dados necessários:** nome, telefone, email, senha, foto_perfil.
   - **Usuários:** Administradora.
 
-- **R.F. 08 - Cadastro de aroma:**
+- **R.F. 08 - Cadastro de aroma**:
 Permitir que a administradora cadastre aromas disponíveis para os produtos.
   - **Dados necessários:** nome, quantidade.
   - **Usuários:** Administradora.
 
-- **R.F. 09 - Cadastro de tipos de produto:**
+- **R.F. 09 - Cadastro de tipos de produto**:
 Permitir que a administradora cadastre os tipos de produtos disponíveis no sistema.
   - **Dados necessários:** nome_tipo.
   - **Usuários:** Administradora.
 
 **Processos:**
 
-- **R.F. 10 - Autenticação de usuário:**
+- **R.F. 10 - Autenticação de usuário**:
 Permitir que usuários cadastrados realizem login no sistema para acessar suas funcionalidades, efetuar e visualizar seus pedidos.
   - **Dados necessários:** email, senha.
   - **Usuários:** Cliente, Administradora.
 
-- **R.F. 11 - Registro de pedido:**
+- **R.F. 11 - Registro de pedido**:
 Permitir que o cliente finalize a compra dos produtos selecionados, gerando um pedido no sistema.
   - **Dados necessários:** id_usuario, data_pedido, valor_total, status.
   - **Usuários:** Cliente.
 
-- **R.F. 12 - Registro do item do pedido:**
+- **R.F. 12 - Registro do item do pedido**:
 Permitir a inclusão de produtos em um pedido, definindo quantidade e calculando automaticamente o subtotal.
   - **Dados necessários:** id_pedido, id_produto, quantidade, preco_unitario, subtotal.
   - **Usuários:** Cliente.
 
-- **R.F. 13 - Registro de pagamento:**
+- **R.F. 13 - Registro de pagamento**:
 Permitir o registro do pagamento de um pedido realizado.
   - **Dados necessários:** id_pedido, valor, status, data_pagamento, metodo.
   - **Usuários:** Cliente, Administradora.
 
-- **R.F. 14 - Gerenciamento de pedidos:**
+- **R.F. 14 - Gerenciamento de pedidos**:
 Permitir que a administradora visualize e atualize o status dos pedidos realizados no sistema.
   - **Dados necessários:** id_pedido, status, data_entrega.
   - **Usuários:** Administradora.
 
-- **R.F. 15 - Gerenciamento de estoque:**
+- **R.F. 15 - Gerenciamento de estoque**:
 Permitir que a administradora visualize e atualize a quantidade de insumos disponíveis para a produção no estoque.
   - **Dados necessários:** quantidade_embalagem, id_embalagem, quantidade_fita, id_fita, quantidade_parafina, id_parafina, quantidade_pavio, id_pavio, quantidade_tampa, id_tampa, quantidade_recipiente, id_recipiente, quantidade_aroma, id_aroma, quantidade_adesivo, id_adesivo.
   - **Usuários:** Administradora.
 
-- **R.F. 16 - Gerenciamento de itens do pedido:**
+- **R.F. 16 - Gerenciamento de itens do pedido**:
 Permitir que o cliente adicione produtos ao pedido, altere quantidades, remova itens e prossiga para finalização do pedido. 
   - **Dados necessários:** id_produto, quantidade, preco.
   - **Usuários:** Cliente.
 
-- **R.F. 17 - Cancelamento de pedido:**
+- **R.F. 17 - Cancelamento de pedido**:
 Permitir que o cliente solicite o cancelamento de um pedido que ainda não foi enviado.
   - **Dados necessários:** id_pedido, status.
   - **Usuários:** Cliente.
 
-- **R.F. 18 - Atualização de estoque automática:**
+- **R.F. 18 - Atualização de estoque automática**:
 Atualizar automaticamente a quantidade de insumos no estoque após a confirmação de um pedido, com base nos itens utilizados na produção.
   - **Dados necessários:** id_produto
   - **Usuários:** Sistema.
 
-- **R.F. 19 - Filtragem de produtos:**
+- **R.F. 19 - Filtragem de produtos**:
 Permitir que o cliente filtre os produtos por categoria, aroma, preço ou relevância.
   - **Dados necessários:** categoria, aroma, preco.
   - **Usuários:** Cliente.
 
-- **R.F. 20 - Recuperação de senha:**
+- **R.F. 20 - Recuperação de senha**:
 Permitir que o usuário recupere o acesso à sua conta caso tenha esquecido a senha. O sistema deverá solicitar o e-mail cadastrado e enviar um link ou código para redefinição da senha.
   - **Dados necessários:** email, código ou token de recuperação, nova senha.
   - **Usuários:** Cliente, Administradora.
 
 **Saídas:**
 
-- **R.F. 21 - Visualização de produtos:**
+- **R.F. 21 - Visualização de produtos**:
 Permitir que os clientes visualizem os produtos disponíveis na loja com suas informações detalhadas.
   - **Dados necessários:** nome, descricao, preco, categoria, imagem.
   - **Usuários:** Cliente.
 
-- **R.F. 22 - Visualização de avaliações:**
+- **R.F. 22 - Visualização de avaliações**:
 Permitir que os clientes visualizem avaliações feitas por outros usuários sobre os produtos.
   - **Dados necessários:** nota, comentário, data_avaliacao, nome_usuario.
   - **Usuários:** Cliente.
 
-- **R.F. 23 - Visualização de pedidos:**
+- **R.F. 23 - Visualização de pedidos**:
 Permitir que o usuário visualize o histórico de pedidos realizados no sistema.
   - **Dados necessários:** data_pedido, status, valor_total, data_entrega.
   - **Usuários:** Cliente, Administradora.
 
-- **R.F. 24 - Relatório de vendas:**
+- **R.F. 24 - Relatório de vendas**:
 Permitir que a administradora visualize relatórios de vendas realizadas na loja.
   - **Dados necessários:** data_pedido, valor_total, quantidade de pedidos.
   - **Usuários:** Administradora.
 
-- **R.F. 25 - Visualização de clientes cadastrados:**
+- **R.F. 25 - Visualização de clientes cadastrados**:
 Permitir que a administradora visualize a lista de clientes cadastrados no sistema para eventuais contatos ou suporte.
   - **Dados necessários:** nome, email, telefone, data_nascimento.
   - **Usuários:** Administradora.
