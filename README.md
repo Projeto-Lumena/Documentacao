@@ -52,10 +52,7 @@ Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos pr
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
-
+![Modelo Entidade-Relacionamento (MER) - Lumena](https://github.com/user-attachments/assets/ac2df593-36fd-4f32-8594-5b7e011f4b79)
 
 
 # 5. Regras de negócio
@@ -127,151 +124,138 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
 
 # 6. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-**6.1 O que são requisitos funcionais?**
-
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
-
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**.
-
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
-
-**6.2 Tipos de requisitos funcionais**
-
-Os requisitos funcionais podem ser classificados em:
-
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
-
-**6.3 Diretrizes para a elaboração de requisitos funcionais**
-
-Cada requisito funcional precisa ser:
-
-- **Específico** sobre o que o sistema deve fazer.
-- **Mensurável** para que você possa dizer se o sistema está fazendo isso
-- **Alcançável** dentro do prazo que você definiu
-- **Relevante** para seus objetivos de negócios
-- **Limitado** no tempo para que você possa
-acompanhar o progresso
-
-**6.4 Estrutura do requisito funcional**
-
-Um requisito funcional deve ser estruturado da seguinte forma:
-
-- **Nome do requisito funcional:** descrição do
-requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**6.4.1 Nome do requisito funcional**
-
-**R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
-seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
-Por exemplo:
-- R.F. 01 - Registro de Funcionários
-- R.F. 15 - Gerenciamento de consultas
-- R.F. 04 - Débito em conta corrente
-
-Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
-
-**6.4.2 Descrição do requisito funcional**
-
-**Descrição do requisito:** local para descrever a função deste requisito.
-
-Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
-Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
-usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
-
-**6.4.3 Dados necessários**
-
-**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer.
-
-Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual).
-
-Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
-
-**6.4.4 Usuários**
-
-**Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
-
-**6.4.5 Exemplo de requisito funcional**
-
-- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
-para a página principal de seu perfil de acesso.
-  - **Dados necessários:** login, senha, nível de permissão.
-  - **Usuários:** todos os níveis de usuário.
-
-**6.4.6 Organização dos requisitos funcionais**
-
-As funcionalidades devem ser organizadas em: entradas, processos e saídas.
-
-**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso.
-
-**Exemplos de entradas:**
-- “**Registro de usuário**” (para permitir depois seu acesso ao software).
-- “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
-atendimentos).
-
-**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados.
-
-**Exemplos de processos:**
-- “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
-- “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
-
-**Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
-negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem.
-
-**Exemplos de saídas:**
-- “Relatório de consultas por paciente”.
-- Relatório de vendas”.
-- “Log de usuários autenticados”.
-
-Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
-negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
-
-**6.4.7 Exemplo de organização dos requisitos funcionais**
-
-(_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
 
 **Entradas:**
 
-- **R.F. 01 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+- **R.F. 01 - Cadastro de usuário**
+Permitir que novos clientes realizem seu cadastro na plataforma para acessar o sistema, visualizar produtos e efetuar pedidos.
+  - **Dados necessários:** nome, email, telefone, senha, data_nascimento, foto_perfil.
+  - **Usuários:** Cliente.
 
-- **R.F. 02 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+- **R.F. 02 - Cadastro de endereço**
+Permitir que o usuário cadastre seu endereço (casa, trabalho…) para entrega dos pedidos realizados.
+  - **Dados necessários:** rua, numero, complemento, bairro, cidade, estado, cep, tipo, id_usuario.
+  - **Usuários:** Cliente.
 
-**Processamento:**
+- **R.F. 03 - Gerenciamento de produto**
+Permitir que a administradora cadastre, edite e exclua produtos do sistema, incluindo suas informações.
+  - **Dados necessários:** nome, descricao, preco, ativo, imagem.
+  - **Usuários:** Administradora.
 
-- **R.F. 03 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+- **R.F. 04 - Cadastro de categoria**
+Permitir que a administradora cadastre categorias para organizar os produtos no sistema.
+  - **Dados necessários:** nome, descricao.
+  - **Usuários:** Administradora.
 
-- **R.F. 04 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+- **R.F. 05 - Cadastro de avaliação**
+Permitir que o cliente registre avaliações de produtos adquiridos, informando nota e comentário.
+  - **Dados necessários:** nota, comentario, data_avaliacao, id_usuario, id_produto.
+  - **Usuários:** Cliente.
+
+- **R.F. 06 - Edição do perfil do cliente**
+Permitir que o cliente atualize seus dados pessoais e de contato cadastrados no sistema.
+  - **Dados necessários:** nome, telefone, email, senha, foto_perfil.
+  - **Usuários:** Cliente.
+
+- **R.F. 07 - Edição do perfil da Administradora**
+Permitir que a administradora atualize seus dados pessoais e de contato cadastrados no sistema.
+  - **Dados necessários:** nome, telefone, email, senha, foto_perfil.
+  - **Usuários:** Administradora.
+
+- **R.F. 08 - Cadastro de aroma**
+Permitir que a administradora cadastre aromas disponíveis para os produtos.
+  - **Dados necessários:** nome, quantidade.
+  - **Usuários:** Administradora.
+
+- **R.F. 09 - Cadastro de tipos de produto**
+Permitir que a administradora cadastre os tipos de produtos disponíveis no sistema.
+  - **Dados necessários:** nome_tipo.
+  - **Usuários:** Administradora.
+
+**Processos:**
+
+- **R.F. 10 - Autenticação de usuário**
+Permitir que usuários cadastrados realizem login no sistema para acessar suas funcionalidades, efetuar e visualizar seus pedidos.
+  - **Dados necessários:** email, senha.
+  - **Usuários:** Cliente, Administradora.
+
+- **R.F. 11 - Registro de pedido**
+Permitir que o cliente finalize a compra dos produtos selecionados, gerando um pedido no sistema.
+  - **Dados necessários:** id_usuario, data_pedido, valor_total, status.
+  - **Usuários:** Cliente.
+
+- **R.F. 12 - Registro do item do pedido**
+Permitir a inclusão de produtos em um pedido, definindo quantidade e calculando automaticamente o subtotal.
+  - **Dados necessários:** id_pedido, id_produto, quantidade, preco_unitario, subtotal.
+  - **Usuários:** Cliente.
+
+- **R.F. 13 - Registro de pagamento**
+Permitir o registro do pagamento de um pedido realizado.
+  - **Dados necessários:** id_pedido, valor, status, data_pagamento, metodo.
+  - **Usuários:** Cliente, Administradora.
+
+- **R.F. 14 - Gerenciamento de pedidos**
+Permitir que a administradora visualize e atualize o status dos pedidos realizados no sistema.
+  - **Dados necessários:** id_pedido, status, data_entrega.
+  - **Usuários:** Administradora.
+
+- **R.F. 15 - Gerenciamento de estoque**
+Permitir que a administradora visualize e atualize a quantidade de insumos disponíveis para a produção no estoque.
+  - **Dados necessários:** quantidade_embalagem, id_embalagem, quantidade_fita, id_fita, quantidade_parafina, id_parafina, quantidade_pavio, id_pavio, quantidade_tampa, id_tampa, quantidade_recipiente, id_recipiente, quantidade_aroma, id_aroma, quantidade_adesivo, id_adesivo.
+  - **Usuários:** Administradora.
+
+- **R.F. 16 - Gerenciamento de itens do pedido**
+Permitir que o cliente adicione produtos ao pedido, altere quantidades, remova itens e prossiga para finalização do pedido. 
+  - **Dados necessários:** id_produto, quantidade, preco.
+  - **Usuários:** Cliente.
+
+- **R.F. 17 - Cancelamento de pedido**
+Permitir que o cliente solicite o cancelamento de um pedido que ainda não foi enviado.
+  - **Dados necessários:** id_pedido, status.
+  - **Usuários:** Cliente.
+
+- **R.F. 18 - Atualização de estoque automática**
+Atualizar automaticamente a quantidade de insumos no estoque após a confirmação de um pedido, com base nos itens utilizados na produção.
+  - **Dados necessários:** id_produto
+  - **Usuários:** Sistema.
+
+- **R.F. 19 - Filtragem de produtos**
+Permitir que o cliente filtre os produtos por categoria, aroma, preço ou relevância.
+  - **Dados necessários:** categoria, aroma, preco.
+  - **Usuários:** Cliente.
+
+- **R.F. 20 - Recuperação de senha**
+Permitir que o usuário recupere o acesso à sua conta caso tenha esquecido a senha. O sistema deverá solicitar o e-mail cadastrado e enviar um link ou código para redefinição da senha.
+  - **Dados necessários:** email, código ou token de recuperação, nova senha.
+  - **Usuários:** Cliente, Administradora.
 
 **Saídas:**
 
-- **R.F. 05 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+- **R.F. 21 - Visualização de produtos**
+Permitir que os clientes visualizem os produtos disponíveis na loja com suas informações detalhadas.
+  - **Dados necessários:** nome, descricao, preco, categoria, imagem.
+  - **Usuários:** Cliente.
 
-- **R.F. 06 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+- **R.F. 22 - Visualização de avaliações**
+Permitir que os clientes visualizem avaliações feitas por outros usuários sobre os produtos.
+  - **Dados necessários:** nota, comentário, data_avaliacao, nome_usuario.
+  - **Usuários:** Cliente.
+
+- **R.F. 23 - Visualização de pedidos**
+Permitir que o usuário visualize o histórico de pedidos realizados no sistema.
+  - **Dados necessários:** data_pedido, status, valor_total, data_entrega.
+  - **Usuários:** Cliente, Administradora.
+
+- **R.F. 24 - Relatório de vendas**
+Permitir que a administradora visualize relatórios de vendas realizadas na loja.
+  - **Dados necessários:** data_pedido, valor_total, quantidade de pedidos.
+  - **Usuários:** Administradora.
+
+- **R.F. 25 - Visualização de clientes cadastrados**
+Permitir que a administradora visualize a lista de clientes cadastrados no sistema para eventuais contatos ou suporte.
+  - **Dados necessários:** nome, email, telefone, data_nascimento.
+  - **Usuários:** Administradora.
+
 
 # 7. Requisitos não funcionais
 
