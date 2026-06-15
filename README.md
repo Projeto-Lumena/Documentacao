@@ -13,8 +13,8 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/Projeto-Lumena/Documentacao)
--   Backend: [Repositório](https://github.com/Projeto-Lumena/Backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](https://github.com/Projeto-Lumena/Frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/Projeto-Lumena/Backend) e [Publicação](https://backend-lumena.class.fabricadesoftware.ifc.edu.br/)
+-   Frontend: [Repositório](https://github.com/Projeto-Lumena/Frontend) e [Publicação](https://frontend-lumena-mu.vercel.app/)
 
 # 1. Desenvolvimento
 
