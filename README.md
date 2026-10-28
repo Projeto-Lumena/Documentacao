@@ -3,7 +3,7 @@
 
 Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-*Nosso projeto visa o desenvolvimento de uma aplicação WEB, com o objetivo de ampliar o reconhecimento de uma microempreendedora no ramo de velas aromáticas artesanais, oferecendo uma plataforma com funcionalidades para otimização do gerenciamento e venda de produtos. Além disso, possibilita uma relação personalizada de cliente e vendedor, por meio da escolha de produtos, seleção de aromas, visualização de detalhes e finalização de compra de forma prática com pagamento seguro.*
+*Nosso projeto visa o desenvolvimento de uma aplicação WEB, com o objetivo de ampliar o reconhecimento de uma microempreendedora no ramo de velas aromáticas artesanais, oferecendo uma plataforma com funcionalidades para otimização da venda de seus produtos. Além disso, possibilita uma relação personalizada de cliente e vendedor, por meio da escolha de produtos, seleção de aromas, visualização de detalhes e finalização de compra de forma prática com um mapa de geolocalização para endereços e envio de mensagens diretamente para  vendedora.*
 
 Professor: [Marco André Mendes](github.com/marcoandre)
 
@@ -24,7 +24,7 @@ Um sistema de ponto de vendas é um software que permite a um estabelecimento co
 
 **Loja de aromas Lumena:**
 
-A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido à baixa divulgação de seus produtos, será desenvolvido um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso aos produtos, compras e pagamentos dos mesmos. O sistema também permitirá o registro e controle das vendas realizadas, aproximando-se das funcionalidades de um sistema de ponto de vendas. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
+A nossa cliente, Lorena, possui uma marca de produção de velas aromáticas, chamada Lumena e, devido à baixa divulgação de seus produtos, será desenvolvido um sistema que auxilie na divulgação e otimize suas vendas. Para isso, o sistema contará com os produtos que podem ser cadastrados por ela e permitirá ao usuário o acesso e visualização aos produtos e finalização de compras. O sistema também permitirá o registro e controle das vendas realizadas, aproximando-se das funcionalidades de um sistema de ponto de vendas. Portanto, o motivo da escolha do modelo de ponto de vendas deve-se ao fato da necessidade da cliente ampliar o alcance da venda de seus produtos.
 
 # 2. Situação Problema
 
@@ -34,25 +34,24 @@ Atualmente, a empresa Lumena realiza suas vendas principalmente por meio das red
 
 Após o contato inicial, Lorena deixa salvo o pedido no contato do cliente. Não há um sistema digital para organizar esses dados, o que pode dificultar a visualização e o controle dos pedidos em andamento.
 
-A produção das velas é feita de forma artesanal pela própria Lorena, que organiza sua rotina de acordo com a demanda de pedidos registrados. Como não existe um controle automatizado, a gestão do estoque de materiais, como cera, essências e recipientes, é feita de maneira visual ou por estimativa, podendo ocorrer falta ou excesso de insumos.
+A produção das velas é feita de forma artesanal pela própria Lorena, que organiza sua rotina de acordo com a demanda de pedidos registrados. Como não existe um controle automatizado, a gestão é feita de maneira visual ou por estimativa.
 
 Além disso, o controle financeiro também é realizado manualmente. Os pagamentos são feitos via Pix ou dinheiro, e as informações são anotadas separadamente, sem integração com os pedidos realizados. Isso dificulta a organização e o acompanhamento do faturamento da empresa.
 
-As entregas são combinadas diretamente com os clientes, podendo ser feitas por retirada no local ou envio, porém não há um controle estruturado dessas entregas, o que pode gerar confusões ou atrasos.
-
-Diante dessa situação, é possível identificar dificuldades na organização dos pedidos, no controle de estoque e na gestão financeira da empresa. A ausência de um sistema informatizado pode causar erros, retrabalho e perda de informações. Dessa forma, o desenvolvimento de um software de vendas e gerenciamento de pedidos, estoque e finanças poderia otimizar os processos, melhorar a organização e contribuir para o crescimento da empresa Lumena.
+Diante dessa situação, é possível identificar dificuldades na organização dos pedidos, no controle e na gestão da empresa. A ausência de um sistema informatizado pode causar erros, retrabalho e perda de informações. Dessa forma, o desenvolvimento de um software de vendas poderia otimizar os processos, melhorar a organização e contribuir para o crescimento da empresa Lumena.
 
 # 3. Descrição da proposta
 
 A proposta do sistema Lumena é o desenvolvimento de uma aplicação que potencialize a divulgação, gerenciamento e venda de velas aromáticas artesanais. O principal objetivo do sistema é possibilitar que a dona do empreendimento amplie o alcance de sua marca, organize seus produtos e otimize o processo de venda e compra, trazendo uma solução para as atuais dificuldades em relação à baixa visibilidade dos produtos e mal gerenciamento das vendas.
 
-O software possuirá dois tipos de usuários: a vendedora e os clientes. A vendedora possuirá acesso às funcionalidades de administração e gerenciamento, como o cadastro, edição e exclusão de produtos, suas informações e acompanhamento dos pedidos. Os clientes, por sua vez, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.
+Os clientes, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.<img width="1058" height="945" alt="Modelo Entidade-Relacionamento (MER) - Lumena" src="https://github.com/user-attachments/assets/53d74b7d-5f3c-4ab5-a280-052e010cf9dc" />
+
 
 Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta busca, além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
 
 # 4. Modelagem de Dados
 
-![Modelo Entidade-Relacionamento (MER) - Lumena](https://github.com/user-attachments/assets/5450b4c7-a0ed-409f-be0a-ab85de3d6ef0)
+![Modelo Entidade-Relacionamento (MER) - Lumena](https://github.com/user-attachments/assets/de35a3a4-859a-40bf-a9d3-c264314d2df7)
 
 # 5. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
