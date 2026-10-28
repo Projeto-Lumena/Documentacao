@@ -44,83 +44,32 @@ Diante dessa situação, é possível identificar dificuldades na organização 
 
 A proposta do sistema Lumena é o desenvolvimento de uma aplicação que potencialize a divulgação, gerenciamento e venda de velas aromáticas artesanais. O principal objetivo do sistema é possibilitar que a dona do empreendimento amplie o alcance de sua marca, organize seus produtos e otimize o processo de venda e compra, trazendo uma solução para as atuais dificuldades em relação à baixa visibilidade dos produtos e mal gerenciamento das vendas.
 
-Os clientes, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.<img width="1058" height="945" alt="Modelo Entidade-Relacionamento (MER) - Lumena" src="https://github.com/user-attachments/assets/53d74b7d-5f3c-4ab5-a280-052e010cf9dc" />
-
+Os clientes, poderão acessar o sistema e visualizar os produtos cadastrados, ler detalhes, escolher o produto, aroma e demais informações para fazer o seu pedido e finalizar a compra de forma segura.
 
 Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos produtos, permitindo uma experiência confortável para o cliente e eficiente para a vendedora. Desse modo, a proposta busca, além de facilitar e otimizar as vendas, aumentar a presença digital da marca, fortalecendo e contribuindo para o crescimento do negócio.
 
 # 4. Modelagem de Dados
 
-![Modelo Entidade-Relacionamento (MER) - Lumena](<img width="1388" height="720" alt="Modelo Entidade-Relacionamento (MER) - Lumena (1)" src="https://github.com/user-attachments/assets/6b73db53-d4d1-486e-9db8-3f1563395a6c" />
-).
+![Modelo Entidade-Relacionamento (MER) - Lumena](https://github.com/user-attachments/assets/980cdb31-160e-4a0c-b47c-861bb5cac12f).
 
 # 5. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
-
-**5.1 O que são regras de negócio?**
-
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
-
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
-
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
-
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
-
-**5.2 Regras para a criação de regras de negócio**
-
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
-
-**5.3 Por que ter regras de negócio?**
-
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
-
-**5.4 Exemplos de regras de negócio**
-
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
-
-**5.5 Como escrever regras de negócio?**
-
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
-
-**5.6 Exemplos de regras de negócio com formatação**
-
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+- **RN01 – Listagem de Produtos:** O sistema deve apresentar os produtos cadastrados no catálogo, exibindo suas imagens, nomes e preços.
+- **RN02 – Detalhes do Produto:** O cliente deve poder acessar os detalhes de um produto para consultar sua imagem, descrição, tamanhos disponíveis e respectivos preços.
+- **RN03 – Busca de Produtos:** O sistema deve permitir que o cliente pesquise produtos pelo nome e visualize os resultados correspondentes.
+- **RN04 – Consulta aos Aromas:** O sistema deve disponibilizar informações sobre os aromas das velas para que o cliente possa conhecer suas características.
+- **RN05 – Seleção de Tamanho:** Para adicionar uma vela à sacola, o cliente deve selecionar uma das opções de tamanho disponíveis para o produto.
+- **RN06 – Preço por Variação:** O preço considerado para cada vela deve corresponder ao tamanho selecionado pelo cliente.
+- **RN07 – Adição de Produtos à Sacola:** O sistema deve permitir que o cliente adicione produtos à sacola, registrando o produto selecionado, seu tamanho, preço e quantidade.
+- **RN08 – Alteração da Quantidade:** O cliente deve poder aumentar ou diminuir a quantidade dos produtos na sacola, com atualização dos valores correspondentes.
+- **RN09 – Remoção de Produtos:** O sistema deve permitir que o cliente remova produtos da sacola e atualize os valores apresentados após a remoção.
+- **RN10 – Cálculo do Subtotal:** O sistema deve calcular o subtotal dos produtos da sacola considerando o preço de cada item e sua respectiva quantidade.
+- **RN11 – Cálculo do Frete:** O sistema deve calcular o valor do frete com base na distância entre a origem e o endereço informado pelo cliente, utilizando a tarifa de R$ 2,00 por quilômetro.
+- **RN12 – Informações de Endereço:** O sistema deve permitir que o cliente informe seu endereço para o cálculo do frete, utilizando os recursos de localização disponíveis.
+- **RN13 – Visualização da Localização:** O sistema deve apresentar um mapa para auxiliar na visualização da localização utilizada no processo de compra.
+- **RN14 – Cálculo do Valor Total:** O sistema deve apresentar o valor total da compra considerando o subtotal dos produtos e o valor do frete.
+- **RN15 – Contato com a Vendedora:** O sistema deve permitir que o cliente entre em contato com a vendedora pelo WhatsApp, utilizando uma mensagem preparada com as informações pertinentes ao pedido.
+- **RN16 – Sacola Vazia:** Quando não houver produtos adicionados, o sistema deve apresentar a sacola vazia, sem exibir itens ou valores.
 
 # 6. Requisitos funcionais
 
@@ -130,127 +79,65 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 Permitir que novos clientes realizem seu cadastro na plataforma para acessar o sistema, visualizar produtos e efetuar pedidos.
   - **Dados necessários:** nome, email, telefone, senha, data_nascimento, foto_perfil.
   - **Usuários:** Cliente.
-
-- **R.F. 02 - Cadastro de endereço**:
-Permitir que o usuário cadastre seu endereço (casa, trabalho…) para entrega dos pedidos realizados.
-  - **Dados necessários:** rua, numero, complemento, bairro, cidade, estado, cep, tipo, id_usuario.
-  - **Usuários:** Cliente.
-
-- **R.F. 03 - Gerenciamento de produto**:
+- **R.F. 02 - Gerenciamento de produto**:
 Permitir que a administradora cadastre, edite e exclua produtos do sistema, incluindo suas informações.
   - **Dados necessários:** nome, descricao, preco, ativo, imagem.
   - **Usuários:** Administradora.
-
-- **R.F. 04 - Cadastro de categoria**:
+- **R.F. 03 - Cadastro de categoria**:
 Permitir que a administradora cadastre categorias para organizar os produtos no sistema.
   - **Dados necessários:** nome, descricao.
   - **Usuários:** Administradora.
-
-- **R.F. 05 - Cadastro de avaliação**:
-Permitir que o cliente registre avaliações de produtos adquiridos, informando nota e comentário.
-  - **Dados necessários:** nota, comentario, data_avaliacao, id_usuario, id_produto.
-  - **Usuários:** Cliente.
-
-- **R.F. 06 - Edição do perfil do cliente**:
-Permitir que o cliente atualize seus dados pessoais e de contato cadastrados no sistema.
+- **R.F. 04 - Edição do perfil**:
+Permitir que o usuário atualize seus dados pessoais e de contato cadastrados no sistema.
   - **Dados necessários:** nome, telefone, email, senha, foto_perfil.
   - **Usuários:** Cliente.
-
-- **R.F. 07 - Edição do perfil da Administradora**:
-Permitir que a administradora atualize seus dados pessoais e de contato cadastrados no sistema.
-  - **Dados necessários:** nome, telefone, email, senha, foto_perfil.
-  - **Usuários:** Administradora.
-
-- **R.F. 08 - Cadastro de aroma**:
-Permitir que a administradora cadastre aromas disponíveis para os produtos.
-  - **Dados necessários:** nome, quantidade.
-  - **Usuários:** Administradora.
-
-- **R.F. 09 - Cadastro de tipos de produto**:
-Permitir que a administradora cadastre os tipos de produtos disponíveis no sistema.
-  - **Dados necessários:** nome_tipo.
-  - **Usuários:** Administradora.
 
 **Processos:**
 
-- **R.F. 10 - Autenticação de usuário**:
+- **R.F. 05 - Autenticação de usuário**:
 Permitir que usuários cadastrados realizem login no sistema para acessar suas funcionalidades, efetuar e visualizar seus pedidos.
   - **Dados necessários:** email, senha.
   - **Usuários:** Cliente, Administradora.
-
-- **R.F. 11 - Registro de pedido**:
+- **R.F. 06 - Registro de pedido**:
 Permitir que o cliente finalize a compra dos produtos selecionados, gerando um pedido no sistema.
   - **Dados necessários:** id_usuario, data_pedido, valor_total, status.
   - **Usuários:** Cliente.
-
-- **R.F. 12 - Registro do item do pedido**:
+- **R.F. 07 - Registro do item do pedido**:
 Permitir a inclusão de produtos em um pedido, definindo quantidade e calculando automaticamente o subtotal.
   - **Dados necessários:** id_pedido, id_produto, quantidade, preco_unitario, subtotal.
   - **Usuários:** Cliente.
-
-- **R.F. 13 - Registro de pagamento**:
+- **R.F. 08 - Registro de pagamento**:
 Permitir o registro do pagamento de um pedido realizado.
   - **Dados necessários:** id_pedido, valor, status, data_pagamento, metodo.
   - **Usuários:** Cliente, Administradora.
-
-- **R.F. 14 - Gerenciamento de pedidos**:
+- **R.F. 09 - Gerenciamento de pedidos**:
 Permitir que a administradora visualize e atualize o status dos pedidos realizados no sistema.
   - **Dados necessários:** id_pedido, status, data_entrega.
   - **Usuários:** Administradora.
-
-- **R.F. 15 - Gerenciamento de estoque**:
-Permitir que a administradora visualize e atualize a quantidade de insumos disponíveis para a produção no estoque.
-  - **Dados necessários:** quantidade_embalagem, id_embalagem, quantidade_fita, id_fita, quantidade_parafina, id_parafina, quantidade_pavio, id_pavio, quantidade_tampa, id_tampa, quantidade_recipiente, id_recipiente, quantidade_aroma, id_aroma, quantidade_adesivo, id_adesivo.
-  - **Usuários:** Administradora.
-
-- **R.F. 16 - Gerenciamento de itens do pedido**:
+- **R.F. 10 - Gerenciamento de itens do pedido**:
 Permitir que o cliente adicione produtos ao pedido, altere quantidades, remova itens e prossiga para finalização do pedido. 
   - **Dados necessários:** id_produto, quantidade, preco.
   - **Usuários:** Cliente.
-
-- **R.F. 17 - Cancelamento de pedido**:
-Permitir que o cliente solicite o cancelamento de um pedido que ainda não foi enviado.
+- **R.F. 11 - Cancelamento de pedido**:
+Permitir que o cliente solicite o cancelamento de um pedido que ainda não foi pago.
   - **Dados necessários:** id_pedido, status.
   - **Usuários:** Cliente.
-
-- **R.F. 18 - Atualização de estoque automática**:
-Atualizar automaticamente a quantidade de insumos no estoque após a confirmação de um pedido, com base nos itens utilizados na produção.
-  - **Dados necessários:** id_produto
-  - **Usuários:** Sistema.
-
-- **R.F. 19 - Filtragem de produtos**:
-Permitir que o cliente filtre os produtos por categoria, aroma, preço ou relevância.
-  - **Dados necessários:** categoria, aroma, preco.
+- **R.F. 12 - Filtragem de produtos**:
+Permitir que o cliente filtre os produtos por categoria e relevância.
+  - **Dados necessários:** categoria.
   - **Usuários:** Cliente.
-
-- **R.F. 20 - Recuperação de senha**:
-Permitir que o usuário recupere o acesso à sua conta caso tenha esquecido a senha. O sistema deverá solicitar o e-mail cadastrado e enviar um link ou código para redefinição da senha.
-  - **Dados necessários:** email, código ou token de recuperação, nova senha.
-  - **Usuários:** Cliente, Administradora.
 
 **Saídas:**
 
-- **R.F. 21 - Visualização de produtos**:
+- **R.F. 13 - Visualização de produtos**:
 Permitir que os clientes visualizem os produtos disponíveis na loja com suas informações detalhadas.
   - **Dados necessários:** nome, descricao, preco, categoria, imagem.
   - **Usuários:** Cliente.
-
-- **R.F. 22 - Visualização de avaliações**:
-Permitir que os clientes visualizem avaliações feitas por outros usuários sobre os produtos.
-  - **Dados necessários:** nota, comentário, data_avaliacao, nome_usuario.
-  - **Usuários:** Cliente.
-
-- **R.F. 23 - Visualização de pedidos**:
+- **R.F. 14 - Visualização de pedidos**:
 Permitir que o usuário visualize o histórico de pedidos realizados no sistema.
   - **Dados necessários:** data_pedido, status, valor_total, data_entrega.
   - **Usuários:** Cliente, Administradora.
-
-- **R.F. 24 - Relatório de vendas**:
-Permitir que a administradora visualize relatórios de vendas realizadas na loja.
-  - **Dados necessários:** data_pedido, valor_total, quantidade de pedidos.
-  - **Usuários:** Administradora.
-
-- **R.F. 25 - Visualização de clientes cadastrados**:
+- **R.F. 15 - Visualização de clientes cadastrados**:
 Permitir que a administradora visualize a lista de clientes cadastrados no sistema para eventuais contatos ou suporte.
   - **Dados necessários:** nome, email, telefone, data_nascimento.
   - **Usuários:** Administradora.
@@ -258,100 +145,18 @@ Permitir que a administradora visualize a lista de clientes cadastrados no siste
 
 # 7. Requisitos não funcionais
 
-Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
-
-Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
-
-**7.1 Categorias de requisitos não funcionais**
-
-Os requisitos não funcionais são importantes porque ajudam a garantir que o sistema atenda às necessidades do usuário.
-
-Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. **Esses requisitos não têm nenhum
-impacto na funcionalidade do aplicativo.** Além disso, existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
-
-- Interface de Usuário
-- Confiabilidade
-- Segurança
-- Atuação
-- Manutenção
-
-Os requisitos não funcionais podem ser divididos em duas categorias:
-
-1. **Atributos de qualidade:** Estas são as características do sistema que determinam sua qualidade geral. Exemplos de atributos de qualidade incluem segurança, desempenho e usabilidade.
-2. **Restrições:** Estas são as limitações impostas ao sistema.
-Exemplos de restrições incluem tempo, recursos e ambiente.
-
-**7.2 Vantagens dos requisitos não funcionais**
-
-Os requisitos não funcionais ajudam a garantir que o sistema seja:
-
-1. Adaptado às necessidades do usuário.
-2. Adequado à finalidade.
-3. Escalável, seguro e confiável.
-4. Fácil de usar e manter.
-
-**7.3 Exemplos de requisitos não funcionais**
-
-Aqui estão alguns exemplos de requisitos não funcionais:
-1. **Segurança**: O sistema deve ser protegido contra acesso não
-autorizado.
-2. **Atuação**: O sistema deve ser capaz de lidar com o número necessário
-de usuários sem qualquer degradação no desempenho.
-3. **Escalabilidade**: O sistema deve ser capaz de aumentar ou diminuir
-conforme necessário.
-4. **Disponibilidade**: O sistema deve estar disponível quando necessário.
-5. **Manutenção**: O sistema deve ser fácil de manter e atualizar.
-6. **Portabilidade**: O sistema deve ser capaz de rodar em diferentes
-plataformas com alterações mínimas.
-7. **Confiabilidade**: O sistema deve ser confiável e atender aos requisitos
-do usuário.
-8. **Usabilidade**: O sistema deve ser fácil de usar e entender.
-9. **Compatibilidade**: O sistema deve ser compatível com outros sistemas.
-10. **Conformidade**: O sistema deve cumprir todas as leis e regulamentos
-aplicáveis.
-
-**7.4 Exemplo de organização dos requisitos não funcionais**
-
-(_A seguir, um exemplo de organização de requisitos não funcionais._)
-
-**Requisitos não funcionais:**
-
-- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito.
-- **R.N.F. 02 - Nome do requisito não funcional:** descrição do requisito.
-
-**Exemplos de requisitos não funcionais:**
-
-
-**Sistema de Padaria**:
-- **R.N.F. 01 - Navegador homologado:** O sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
-- **R.N.F. 02 - Processador:** É recomendado para o sistema  no mínimo um processador Intel i3, similar ou superior a geração 7100 ou AMD Ryzen 3 da geração similar ou superior ao 3100, para que o servidor funcione em sua melhor performance.
-- **R.N.F. 03 - Memória RAM:** é recomendável que o sistema possua no mínimo 2GB de RAM para melhor performance.
-- **R.N.F. 04 - Arquitetura:** Será utilizada a arquitetiura MVC para o desenvolvimento do sistema, com uso de uma API REST para comunicação com o banco de dados.
-- **R.N.F. 05 - Banco de dados:** O sistema será implementado com o banco de dados MySQL.
-- **R.N.F. 06 - Conexão com banco de dados:** Para conexão com o banco de dados, o sistema utilizará a ferramenta de MySQL Connector.
-- **R.N.F. 07 - Implementação:** O sistema deverá ser desenvolvido com linguagem Python, Javascript, HTML5, CSS3 e SQL.
-- **R.N.F. 08 - Segurança:** Ficará a critério do responsável do estabelecimento a segurança dos acessos ao sistema, tendo consciência das pessoas que possua permissão para acesso.
-- **R.N.F. 09 - Ambiente de Desenvolvimento Integrado (IDE):** Para criação do sistema, será utilizado o editor de texto Visual Studio Code.
-- **R.N.F. 10 - Disponibilidade:** O sistema irá atender 99% do tempo de uso, somente ocorreria problemas de cadastro, remoção, inserção ou alteração em casos de falta de rede ou energia.
-- **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
-
-**Sistema de Ordem de Serviço:**
-- **R.N.F. 01 - Navegadores homologados:** o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
-- **R.N.F. 02 - Tecnologia Front-end:** Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além do framework Vue.js.
-- **R.N.F. 03- Tecnologia Back-end:** O software será desenvolvido pela linguagem de programação Python, com o framework Django e a API REST com Django REST Framework.
-- **R.N.F. 04 - Interoperabilidade:** O banco de dados será o MySQL, com a linguagem SQL de banco, sendo todo produzido através do MySQL Workbench .
-- **R.N.F. 05 - Forma de uso do software:** O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
-- **R.N.F. 06 - Desempenho:** Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
-- **R.N.F. 07- Autenticação:** Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
-- **R.N.F. 08 - Web Server:** O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas.
-- **R.N.F. 09 - Níveis de segurança:** O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
-
-**7.5 Conclusão**
-
-Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
-
-É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
-Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
+- **R.N.F. 01 – Tecnologia Front-end:** O sistema deverá utilizar Vue.js para a construção da interface, Tailwind CSS para a estilização, Pinia para o gerenciamento de estado, Vue Router para a navegação entre páginas e Axios para as requisições HTTP.
+- **R.N.F. 02 – Tecnologia Back-end:** O backend deverá utilizar Python, Django e Django REST Framework para disponibilizar os recursos da aplicação por meio de uma API.
+- **R.N.F. 03 – Arquitetura da aplicação:** O sistema deverá manter a separação entre frontend e backend, permitindo que a interface se comunique com os serviços disponibilizados pela API.
+- **R.N.F. 04 – Aplicação Web:** O sistema deverá ser disponibilizado pela internet, permitindo o acesso dos clientes por meio de um navegador.
+- **R.N.F. 05 – Compatibilidade com navegadores:** A aplicação deverá ser compatível com navegadores modernos que ofereçam suporte às tecnologias utilizadas no desenvolvimento do sistema.
+- **R.N.F. 06 – Usabilidade:** A interface deverá apresentar os produtos, suas informações e as opções de compra de maneira clara e organizada, facilitando a navegação e a utilização das funcionalidades pelos clientes.
+- **R.N.F. 07 – Responsividade:** A interface deverá adaptar sua apresentação a diferentes tamanhos de tela, permitindo a utilização em computadores, tablets e dispositivos móveis.
+- **R.N.F. 08 – Tecnologia PWA:** O frontend deverá utilizar os recursos de Progressive Web App (PWA) implementados no projeto, possibilitando os recursos de instalação e outras funcionalidades compatíveis com a configuração adotada.
+- **R.N.F. 09 – Segurança na comunicação:** A aplicação publicada deverá utilizar HTTPS para proteger a comunicação entre o navegador do cliente e os servidores, conforme a configuração dos ambientes de hospedagem.
+- **R.N.F. 10 – Proteção de dados pessoais:** Caso sejam coletados ou processados dados pessoais dos clientes, o sistema deverá observar os princípios e as exigências aplicáveis da Lei Geral de Proteção de Dados Pessoais (LGPD).
+- **R.N.F. 11 – Hospedagem:** O frontend deverá ser disponibilizado por meio da plataforma Vercel, enquanto o backend deverá utilizar o ambiente do Fabroku.
+- **R.N.F. 12 – Identidade visual:** A interface deverá manter a identidade visual da marca Lumena, utilizando a paleta de cores, a tipografia e os elementos visuais definidos para o projeto.
 
 # 8. Diagrama de Caso de Uso
 
