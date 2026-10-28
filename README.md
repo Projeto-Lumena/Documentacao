@@ -51,7 +51,7 @@ Portanto, o sistema deverá permitir a divulgação organizada e atrativa dos pr
 
 # 4. Modelagem de Dados
 
-![Modelo Entidade-Relacionamento (MER) - Lumena](https://github.com/user-attachments/assets/de35a3a4-859a-40bf-a9d3-c264314d2df7)
+![Modelo Entidade-Relacionamento (MER) - Lumena](https://github.com/user-attachments/assets/b0128d41-bf33-4bc4-a187-ee44158f80a4).
 
 # 5. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
